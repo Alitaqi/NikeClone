@@ -7,12 +7,12 @@ import Services from './sections/Services'
 import SpecialOffer from './sections/SpecialOffer' 
 import Subscribe from './sections/Subscribe' 
 import SuperQuality from './sections/SuperQuality' 
-
+import Nav from './components/Nav'
 const App = () => {
   return (
     <main className="relative">
-      {/* <Nav/> */}
-      <section className="xl:padding-1 wide:padding-r padding-b">
+       <Nav/> 
+      <section className="xl:padding-l wide:padding-r padding-b">
         <Hero/>
       </section>
       <section className="padding">
